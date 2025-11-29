@@ -8,5 +8,8 @@ export class AppService {
   getMensaje(): string {
     return 'Hola! soy un nuevo mensaje.';
   }
+  getMensaje2(): string {
+    return 'Hola el segundo mensaje .';
+  }
 }
 

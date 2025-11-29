@@ -13,4 +13,8 @@ export class AppController {
   getMensaje(): string {
     return this.appService.getMensaje();
   }
+  @Get('mensajeNuevo')
+  getMensaje2(): string {
+    return this.appService.getMensaje2();
+  }
 }
