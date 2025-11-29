@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
   getMensaje(): string {
-    return 'Hola! soy un mensaje.';
+    return 'Hola! soy un nuevo mensaje.';
   }
 }
 
